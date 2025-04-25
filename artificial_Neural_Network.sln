@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "artificial_Neural_Network", "artificial_Neural_Network.pyproj", "{19EC2FF0-EE06-4992-88E1-FB8086DEF48B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19EC2FF0-EE06-4992-88E1-FB8086DEF48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EC2FF0-EE06-4992-88E1-FB8086DEF48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30D6381A-C44D-4245-B21A-C8A49AF305CD}
+	EndGlobalSection
+EndGlobal
