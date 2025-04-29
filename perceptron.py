@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plot
 
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
@@ -10,12 +11,16 @@ X = np.array([[0,0],[0,1],[1,0],[1,1]])
 
 Y = np.array([[0],[0],[0],[1]])
 
-lr = 0.02
-
+np.random.seed(42)
 w = np.random.randn(2,1)
 b = np.random.randn(1)
 
-for epoch  in range(50) :
+plot_update_frequency = 10
+
+lr = 10
+epochs = 1000
+
+for epoch  in range(epochs) :
     z = np.dot(X, w) + b
     y = sigmoid(z)
     error = y - Y 
